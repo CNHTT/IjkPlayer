@@ -27,10 +27,10 @@
 
     <Button
         android:background="@drawable/shape_edit_bg"
-        android:text="Button"
+        android:text="直播"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button3" />
+        android:id="@+id/btn_rtmp_video" />
 
     <Button
         android:background="@drawable/shape_edit_bg"

@@ -23,5 +23,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, IjkFullscreenActivity.class));
             }
         });
+        findViewById(R.id.btn_rtmp_video).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, RTMPActivity.class));
+            }
+        });
     }
 }
